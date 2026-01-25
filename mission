@@ -1,0 +1,1509 @@
+mission = 
+{
+	["groundControl"] = 
+	{
+		["passwords"] = 
+		{
+			["artillery_commander"] = {},
+			["instructor"] = {},
+			["observer"] = {},
+			["forward_observer"] = {},
+		}, -- end of ["passwords"]
+		["roles"] = 
+		{
+			["artillery_commander"] = 
+			{
+				["neutrals"] = 0,
+				["blue"] = 0,
+				["red"] = 0,
+			}, -- end of ["artillery_commander"]
+			["instructor"] = 
+			{
+				["neutrals"] = 0,
+				["blue"] = 0,
+				["red"] = 0,
+			}, -- end of ["instructor"]
+			["observer"] = 
+			{
+				["neutrals"] = 0,
+				["blue"] = 0,
+				["red"] = 0,
+			}, -- end of ["observer"]
+			["forward_observer"] = 
+			{
+				["neutrals"] = 0,
+				["blue"] = 0,
+				["red"] = 0,
+			}, -- end of ["forward_observer"]
+		}, -- end of ["roles"]
+		["isPilotControlVehicles"] = false,
+	}, -- end of ["groundControl"]
+	["requiredModules"] = 
+	{
+		["AH-6J"] = "AH-6J",
+	}, -- end of ["requiredModules"]
+	["date"] = 
+	{
+		["Year"] = 2024,
+		["Day"] = 15,
+		["Month"] = 8,
+	}, -- end of ["date"]
+	["trig"] = 
+	{
+		["actions"] = {},
+		["events"] = {},
+		["custom"] = {},
+		["func"] = {},
+		["flag"] = {},
+		["conditions"] = {},
+		["customStartup"] = {},
+		["funcStartup"] = {},
+	}, -- end of ["trig"]
+	["maxDictId"] = 10,
+	["result"] = 
+	{
+		["offline"] = 
+		{
+			["conditions"] = {},
+			["actions"] = {},
+			["func"] = {},
+		}, -- end of ["offline"]
+		["total"] = 0,
+		["blue"] = 
+		{
+			["conditions"] = {},
+			["actions"] = {},
+			["func"] = {},
+		}, -- end of ["blue"]
+		["red"] = 
+		{
+			["conditions"] = {},
+			["actions"] = {},
+			["func"] = {},
+		}, -- end of ["red"]
+	}, -- end of ["result"]
+	["pictureFileNameN"] = {},
+	["descriptionNeutralsTask"] = "DictKey_descriptionNeutralsTask_4",
+	["pictureFileNameServer"] = {},
+	["weather"] = 
+	{
+		["wind"] = 
+		{
+			["at8000"] = 
+			{
+				["speed"] = 8,
+				["dir"] = 45,
+			}, -- end of ["at8000"]
+			["atGround"] = 
+			{
+				["speed"] = 4,
+				["dir"] = 90,
+			}, -- end of ["atGround"]
+			["at2000"] = 
+			{
+				["speed"] = 5,
+				["dir"] = 60,
+			}, -- end of ["at2000"]
+		}, -- end of ["wind"]
+		["enable_fog"] = false,
+		["season"] = 
+		{
+			["temperature"] = 26,
+		}, -- end of ["season"]
+		["qnh"] = 760,
+		["cyclones"] = {},
+		["dust_density"] = 0,
+		["enable_dust"] = false,
+		["clouds"] = 
+		{
+			["thickness"] = 0,
+			["density"] = 0,
+			["base"] = 5000,
+			["iprecptns"] = 0,
+		}, -- end of ["clouds"]
+		["atmosphere_type"] = 0,
+		["groundTurbulence"] = 0,
+		["halo"] = 
+		{
+			["preset"] = "auto",
+		}, -- end of ["halo"]
+		["type_weather"] = 0,
+		["modifiedTime"] = false,
+		["name"] = "Summer, clear sky",
+		["fog"] = 
+		{
+			["visibility"] = 0,
+			["thickness"] = 0,
+		}, -- end of ["fog"]
+		["visibility"] = 
+		{
+			["distance"] = 60000,
+		}, -- end of ["visibility"]
+	}, -- end of ["weather"]
+	["theatre"] = "Caucasus",
+	["triggers"] = 
+	{
+		["zones"] = 
+		{
+			[1] = 
+			{
+				["radius"] = 1500,
+				["zoneId"] = 1,
+				["color"] = {1, 0, 0, 0.15},
+				["properties"] = {},
+				["hidden"] = false,
+				["y"] = 627500,
+				["x"] = -343000,
+				["name"] = "Combat Zone",
+				["type"] = 0,
+			}, -- end of [1]
+		}, -- end of ["zones"]
+	}, -- end of ["triggers"]
+	["map"] = 
+	{
+		["centerY"] = 622000,
+		["zoom"] = 64000,
+		["centerX"] = -350000,
+	}, -- end of ["map"]
+	["coalitions"] = 
+	{
+		["blue"] = 
+		{
+			[1] = 2,
+			[2] = 16,
+			[3] = 80,
+		}, -- end of ["blue"]
+		["neutrals"] = 
+		{
+			[1] = 22,
+		}, -- end of ["neutrals"]
+		["red"] = 
+		{
+			[1] = 0,
+			[2] = 81,
+		}, -- end of ["red"]
+	}, -- end of ["coalitions"]
+	["descriptionText"] = "DictKey_descriptionText_1",
+	["pictureFileNameR"] = {},
+	["descriptionBlueTask"] = "DictKey_descriptionBlueTask_3",
+	["goals"] = {},
+	["descriptionRedTask"] = "DictKey_descriptionRedTask_2",
+	["pictureFileNameB"] = {},
+	["coalition"] = 
+	{
+		["blue"] = 
+		{
+			["bullseye"] = 
+			{
+				["y"] = 627500,
+				["x"] = -343000,
+			}, -- end of ["bullseye"]
+			["nav_points"] = {},
+			["name"] = "blue",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 2,
+					["name"] = "USA",
+					["helicopter"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["modulation"] = 0,
+								["tasks"] = {},
+								["radioSet"] = false,
+								["task"] = "CAS",
+								["uncontrolled"] = false,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 10,
+											["action"] = "From Parking Area Hot",
+											["alt_type"] = "BARO",
+											["speed"] = 0,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 0,
+																		["name"] = 0,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "TakeOffParkingHot",
+											["ETA"] = 0,
+											["ETA_locked"] = true,
+											["y"] = 618788,
+											["x"] = -356437,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+											["airdromeId"] = 22,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 150,
+											["action"] = "Turning Point",
+											["alt_type"] = "RADIO",
+											["speed"] = 50,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "EngageTargetsInZone",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["x"] = -343000,
+																["y"] = 627500,
+																["zoneRadius"] = 1500,
+																["targetTypes"] = 
+																{
+																	[1] = "Ground Units",
+																	[2] = "Ground vehicles",
+																	[3] = "Infantry",
+																}, -- end of ["targetTypes"]
+																["priority"] = 0,
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 300,
+											["ETA_locked"] = false,
+											["y"] = 627500,
+											["x"] = -343000,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [2]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 1,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["alt"] = 10,
+										["alt_type"] = "BARO",
+										["livery_id"] = "160th soar 23629",
+										["skill"] = "Client",
+										["ropeLength"] = 15,
+										["speed"] = 0,
+										["AddPropAircraft"] = 
+										{
+											["CableCutterEnables"] = false,
+											["FlaresEquipped"] = true,
+										}, -- end of ["AddPropAircraft"]
+										["type"] = "AH-6J",
+										["unitId"] = 1,
+										["psi"] = 0,
+										["onboard_num"] = "501",
+										["y"] = 618788,
+										["x"] = -356437,
+										["name"] = "Viper-1-1",
+										["payload"] = 
+										{
+											["pylons"] = 
+											{
+												[10] = 
+												{
+													["CLSID"] = "{AH6_M134L}",
+												}, -- end of [10]
+												[11] = 
+												{
+													["CLSID"] = "{AH6_M134R}",
+												}, -- end of [11]
+												[8] = 
+												{
+													["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+												}, -- end of [8]
+												[9] = 
+												{
+													["CLSID"] = "{LAU-131 - 7 AGR-20 M282}",
+												}, -- end of [9]
+											}, -- end of ["pylons"]
+											["fuel"] = 181,
+											["flare"] = 30,
+											["chaff"] = 0,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["heading"] = 1.5707963267949,
+										["callsign"] = 
+										{
+											[1] = 8,
+											[2] = 1,
+											["name"] = "Pontiac11",
+											[3] = 1,
+										}, -- end of ["callsign"]
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 618788,
+								["x"] = -356437,
+								["name"] = "Viper-1",
+								["communication"] = true,
+								["start_time"] = 0,
+								["frequency"] = 251,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["helicopter"]
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 626800,
+											["x"] = -342200,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "FAC",
+															["enabled"] = true,
+															["params"] = {},
+														}, -- end of [1]
+														[2] = 
+														{
+															["number"] = 2,
+															["auto"] = false,
+															["id"] = "FAC_AttackGroup",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["number"] = 1,
+																["designation"] = "Auto",
+																["modulation"] = 1,
+																["groupId"] = 5,
+																["callname"] = 18,
+																["datalink"] = false,
+																["weaponType"] = 9663676414,
+																["frequency"] = 30000000,
+															}, -- end of ["params"]
+														}, -- end of [2]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 2,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Excellent",
+										["coldAtStart"] = false,
+										["type"] = "M1025 HMMWV",
+										["unitId"] = 2,
+										["y"] = 626800,
+										["x"] = -342200,
+										["name"] = "JTAC-Axeman",
+										["heading"] = 0,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 626800,
+								["x"] = -342200,
+								["name"] = "JTAC-Axeman",
+								["start_time"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627100,
+											["x"] = -342800,
+											["ETA_locked"] = true,
+											["speed"] = 2,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = false,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 120,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627600,
+											["x"] = -343200,
+											["ETA_locked"] = false,
+											["speed"] = 2,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = false,
+										}, -- end of [2]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 3,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 3,
+										["y"] = 627100,
+										["x"] = -342800,
+										["name"] = "Blue-Infantry-1-1",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 4,
+										["y"] = 627105,
+										["x"] = -342810,
+										["name"] = "Blue-Infantry-1-2",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 5,
+										["y"] = 627095,
+										["x"] = -342815,
+										["name"] = "Blue-Infantry-1-3",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 6,
+										["y"] = 627108,
+										["x"] = -342820,
+										["name"] = "Blue-Infantry-1-4",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 7,
+										["y"] = 627092,
+										["x"] = -342825,
+										["name"] = "Blue-Infantry-1-5",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 8,
+										["y"] = 627112,
+										["x"] = -342830,
+										["name"] = "Blue-Infantry-1-6",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+								}, -- end of ["units"]
+								["y"] = 627100,
+								["x"] = -342800,
+								["name"] = "Blue-Infantry-1",
+								["start_time"] = 0,
+							}, -- end of [2]
+							[3] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627350,
+											["x"] = -343100,
+											["ETA_locked"] = true,
+											["speed"] = 2,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = false,
+										}, -- end of [1]
+										[2] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 150,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627800,
+											["x"] = -343400,
+											["ETA_locked"] = false,
+											["speed"] = 2,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = false,
+										}, -- end of [2]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 4,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 9,
+										["y"] = 627350,
+										["x"] = -343100,
+										["name"] = "Blue-Infantry-2-1",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 10,
+										["y"] = 627355,
+										["x"] = -343108,
+										["name"] = "Blue-Infantry-2-2",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 11,
+										["y"] = 627345,
+										["x"] = -343112,
+										["name"] = "Blue-Infantry-2-3",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M249",
+										["unitId"] = 12,
+										["y"] = 627360,
+										["x"] = -343118,
+										["name"] = "Blue-Infantry-2-4",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 13,
+										["y"] = 627342,
+										["x"] = -343125,
+										["name"] = "Blue-Infantry-2-5",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Soldier M4",
+										["unitId"] = 14,
+										["y"] = 627365,
+										["x"] = -343130,
+										["name"] = "Blue-Infantry-2-6",
+										["heading"] = 0.78,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+								}, -- end of ["units"]
+								["y"] = 627350,
+								["x"] = -343100,
+								["name"] = "Blue-Infantry-2",
+								["start_time"] = 0,
+							}, -- end of [3]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["blue"]
+		["neutrals"] = 
+		{
+			["bullseye"] = 
+			{
+				["y"] = 0,
+				["x"] = 0,
+			}, -- end of ["bullseye"]
+			["nav_points"] = {},
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
+		["red"] = 
+		{
+			["bullseye"] = 
+			{
+				["y"] = 371700,
+				["x"] = 11557,
+			}, -- end of ["bullseye"]
+			["nav_points"] = {},
+			["name"] = "red",
+			["country"] = 
+			{
+				[1] = 
+				{
+					["id"] = 0,
+					["name"] = "Russia",
+					["vehicle"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627500,
+											["x"] = -343300,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 5,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 15,
+										["y"] = 627500,
+										["x"] = -343300,
+										["name"] = "Red-Infantry-1-1",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 16,
+										["y"] = 627510,
+										["x"] = -343305,
+										["name"] = "Red-Infantry-1-2",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 17,
+										["y"] = 627490,
+										["x"] = -343310,
+										["name"] = "Red-Infantry-1-3",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper RPG-16",
+										["unitId"] = 18,
+										["y"] = 627515,
+										["x"] = -343320,
+										["name"] = "Red-Infantry-1-4",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 19,
+										["y"] = 627485,
+										["x"] = -343325,
+										["name"] = "Red-Infantry-1-5",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 20,
+										["y"] = 627520,
+										["x"] = -343330,
+										["name"] = "Red-Infantry-1-6",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+								}, -- end of ["units"]
+								["y"] = 627500,
+								["x"] = -343300,
+								["name"] = "Red-Infantry-1",
+								["start_time"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627700,
+											["x"] = -343600,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 6,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 21,
+										["y"] = 627700,
+										["x"] = -343600,
+										["name"] = "Red-Infantry-2-1",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 22,
+										["y"] = 627708,
+										["x"] = -343608,
+										["name"] = "Red-Infantry-2-2",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 23,
+										["y"] = 627692,
+										["x"] = -343612,
+										["name"] = "Red-Infantry-2-3",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper AKS-74",
+										["unitId"] = 24,
+										["y"] = 627715,
+										["x"] = -343620,
+										["name"] = "Red-Infantry-2-4",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+									[5] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 25,
+										["y"] = 627685,
+										["x"] = -343628,
+										["name"] = "Red-Infantry-2-5",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [5]
+									[6] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 26,
+										["y"] = 627720,
+										["x"] = -343635,
+										["name"] = "Red-Infantry-2-6",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [6]
+								}, -- end of ["units"]
+								["y"] = 627700,
+								["x"] = -343600,
+								["name"] = "Red-Infantry-2",
+								["start_time"] = 0,
+							}, -- end of [2]
+							[3] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627300,
+											["x"] = -343800,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 7,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BTR-80",
+										["unitId"] = 27,
+										["y"] = 627300,
+										["x"] = -343800,
+										["name"] = "Red-Armor-1-1",
+										["heading"] = 3.92,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BMP-1",
+										["unitId"] = 28,
+										["y"] = 627350,
+										["x"] = -343850,
+										["name"] = "Red-Armor-1-2",
+										["heading"] = 3.92,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BTR-80",
+										["unitId"] = 29,
+										["y"] = 627250,
+										["x"] = -343900,
+										["name"] = "Red-Armor-1-3",
+										["heading"] = 3.92,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+								}, -- end of ["units"]
+								["y"] = 627300,
+								["x"] = -343800,
+								["name"] = "Red-Armor-1",
+								["start_time"] = 0,
+							}, -- end of [3]
+							[4] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627900,
+											["x"] = -343200,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 8,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BMP-1",
+										["unitId"] = 30,
+										["y"] = 627900,
+										["x"] = -343200,
+										["name"] = "Red-Armor-2-1",
+										["heading"] = 4.5,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "BTR-80",
+										["unitId"] = 31,
+										["y"] = 627950,
+										["x"] = -343250,
+										["name"] = "Red-Armor-2-2",
+										["heading"] = 4.5,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+								}, -- end of ["units"]
+								["y"] = 627900,
+								["x"] = -343200,
+								["name"] = "Red-Armor-2",
+								["start_time"] = 0,
+							}, -- end of [4]
+							[5] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 628100,
+											["x"] = -343500,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 9,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "SA-18 Igla-S manance",
+										["unitId"] = 32,
+										["y"] = 628100,
+										["x"] = -343500,
+										["name"] = "Red-MANPADS-1",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = 628100,
+								["x"] = -343500,
+								["name"] = "Red-MANPADS-1",
+								["start_time"] = 0,
+							}, -- end of [5]
+							[6] = 
+							{
+								["visible"] = false,
+								["tasks"] = {},
+								["uncontrollable"] = false,
+								["task"] = "Ground Nothing",
+								["taskSelected"] = true,
+								["route"] = 
+								{
+									["spans"] = {},
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 35,
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["alt_type"] = "BARO",
+											["formation_template"] = "",
+											["y"] = 627100,
+											["x"] = -343700,
+											["ETA_locked"] = true,
+											["speed"] = 0,
+											["action"] = "Off Road",
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["auto"] = false,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 9,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [1]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["speed_locked"] = true,
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 10,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 33,
+										["y"] = 627100,
+										["x"] = -343700,
+										["name"] = "Red-Infantry-3-1",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [1]
+									[2] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 34,
+										["y"] = 627110,
+										["x"] = -343710,
+										["name"] = "Red-Infantry-3-2",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [2]
+									[3] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Paratrooper RPG-16",
+										["unitId"] = 35,
+										["y"] = 627090,
+										["x"] = -343715,
+										["name"] = "Red-Infantry-3-3",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [3]
+									[4] = 
+									{
+										["skill"] = "Average",
+										["coldAtStart"] = false,
+										["type"] = "Infantry AK",
+										["unitId"] = 36,
+										["y"] = 627118,
+										["x"] = -343725,
+										["name"] = "Red-Infantry-3-4",
+										["heading"] = 4.0,
+										["playerCanDrive"] = false,
+									}, -- end of [4]
+								}, -- end of ["units"]
+								["y"] = 627100,
+								["x"] = -343700,
+								["name"] = "Red-Infantry-3",
+								["start_time"] = 0,
+							}, -- end of [6]
+						}, -- end of ["group"]
+					}, -- end of ["vehicle"]
+				}, -- end of [1]
+			}, -- end of ["country"]
+		}, -- end of ["red"]
+	}, -- end of ["coalition"]
+	["sortie"] = "DictKey_sortie_5",
+	["version"] = 23,
+	["trigrules"] = {},
+	["currentKey"] = 100,
+	["failures"] = {},
+	["forcedOptions"] = {},
+	["start_time"] = 32400,
+} -- end of mission

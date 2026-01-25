@@ -1,0 +1,64 @@
+dictionary = 
+{
+	["DictKey_descriptionNeutralsTask_4"] = "",
+	["DictKey_sortie_5"] = "Operation Urban Shield - Close Air Support",
+	["DictKey_descriptionText_1"] = [[OPERATION URBAN SHIELD
+Close Air Support Mission
+
+DATE: August 15, 2024
+TIME: 09:00 Local
+
+SITUATION:
+Friendly infantry forces are engaged in heavy urban combat approximately 15km northeast of Batumi airbase. Enemy forces have occupied key positions in the urban area and are threatening our ground troops with light armor and infantry.
+
+ENEMY FORCES:
+- Infantry squads with small arms and RPGs
+- Light armored vehicles (BTR-80, BMP-1)
+- Possible MANPADS teams in the area
+- NO radar-guided SAM systems
+- NO enemy aircraft
+
+FRIENDLY FORCES:
+- Two infantry platoons advancing through the urban area
+- JTAC callsign "Axeman" embedded with ground forces
+- JTAC frequency: 30.000 FM
+
+WEATHER:
+- Clear skies
+- Visibility: 60km
+- Light wind: 4 m/s from east
+- Temperature: 26C
+
+MISSION:
+Provide close air support to friendly ground troops engaged in urban combat. Coordinate all attacks through JTAC Axeman. Destroy enemy infantry and light armor while avoiding friendly fire.
+
+NOTES:
+- Combat area is DANGER CLOSE - friendlies within 500m of targets
+- Use extreme caution when engaging
+- JTAC will mark targets with smoke when requested
+- F10 map available for situational awareness]],
+	["DictKey_descriptionBlueTask_3"] = [[BLUE TASK:
+
+1. Depart Batumi airbase and proceed to combat zone
+2. Contact JTAC "Axeman" on 30.000 FM
+3. Receive target designation and clearance
+4. Engage enemy infantry and light armor
+5. Avoid friendly fire - DANGER CLOSE operations
+6. Return to Batumi when Winchester or Bingo fuel
+
+RADIO FREQUENCIES:
+- JTAC Axeman: 30.000 FM
+- Tower: 251.000 AM
+
+LOADOUT:
+- M134 Miniguns (7.62mm)
+- AGR-20 Unguided Rockets
+
+ROE: Weapons free on confirmed enemy targets only.
+All engagements require JTAC clearance.]],
+	["DictKey_descriptionRedTask_2"] = [[RED TASK:
+
+Defend occupied positions in the urban area.
+Repel enemy infantry advance.
+Engage hostile aircraft with available air defense assets.]],
+} -- end of dictionary
