@@ -39,12 +39,18 @@ NOTES:
 - F10 map available for situational awareness]],
 	["DictKey_descriptionBlueTask_3"] = [[BLUE TASK:
 
-1. Depart Batumi airbase and proceed to combat zone
-2. Contact JTAC "Axeman" on 30.000 FM
-3. Receive target designation and clearance
-4. Engage enemy infantry and light armor
-5. Avoid friendly fire - DANGER CLOSE operations
-6. Return to Batumi when Winchester or Bingo fuel
+1. Depart Batumi airbase and proceed to IP (Initial Point)
+2. At IP, contact JTAC "Axeman" on 30.000 FM
+3. Proceed to TARGET waypoint / combat zone
+4. Receive target designation and clearance from JTAC
+5. Engage enemy infantry and light armor
+6. Avoid friendly fire - DANGER CLOSE operations
+7. Return to Batumi when Winchester or Bingo fuel
+
+WAYPOINTS:
+- WP1: Batumi (Takeoff)
+- WP2: IP (Initial Point) - Set up attack approach here
+- WP3: TARGET (Combat Zone)
 
 RADIO FREQUENCIES:
 - JTAC Axeman: 30.000 FM

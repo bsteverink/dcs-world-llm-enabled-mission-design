@@ -276,6 +276,29 @@ mission =
 												["id"] = "ComboTask",
 												["params"] = 
 												{
+													["tasks"] = {},
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 180,
+											["ETA_locked"] = false,
+											["y"] = 623000,
+											["x"] = -348500,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+											["name"] = "IP",
+										}, -- end of [2]
+										[3] = 
+										{
+											["alt"] = 100,
+											["action"] = "Turning Point",
+											["alt_type"] = "RADIO",
+											["speed"] = 40,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
 													["tasks"] = 
 													{
 														[1] = 
@@ -308,7 +331,8 @@ mission =
 											["x"] = -343000,
 											["speed_locked"] = true,
 											["formation_template"] = "",
-										}, -- end of [2]
+											["name"] = "TARGET",
+										}, -- end of [3]
 									}, -- end of ["points"]
 								}, -- end of ["route"]
 								["groupId"] = 1,
